@@ -1,0 +1,792 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    color: #131318;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+span{
+    color: #FF5400;
+}
+
+button{
+    color: #FFF;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: none;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* header starts */
+
+nav{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-title{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 15px;
+}
+
+.company-title h3{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a{
+    color: #424247;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FF5400;
+    font-weight: 700;
+}
+
+.banner{
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.banner h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 800;
+    padding: 105px 0 25px;
+}
+
+.banner p{
+    width: 70%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    line-height: 26px;
+}
+
+.banner-form{
+    margin-top: 50px;
+    padding-bottom: 105px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.banner-form form{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+    align-items: center;
+    gap: 25px;
+}
+
+.banner-form input{
+    border-radius: 8px;
+    background-color: #FFF;
+    padding: 15px;
+    border: none;
+}
+
+.banner-form::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-form .time{
+    position: relative;
+}
+
+.banner-form .travel{
+    position: relative;
+}
+
+i{
+    position: absolute;
+    color: rgba(19, 19, 24, 0.50);
+    top: 15px;
+    right: 15px;
+}
+
+.banner-form button{
+    display: flex;
+    padding: 10px 35px;
+}
+
+.banner-form button img{
+    margin-right: 10px;
+}
+
+/* header ends */
+
+/* tour starts */
+
+.tour .container{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.tour-info h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.tour-info p{
+    margin: 25px 0 10px;
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.tour-info li{
+    margin: 15px;
+    color: #5A5A5D;
+}
+
+.tour-info button{
+    margin-top: 20px;
+    padding: 15px 35px;
+}
+
+/* tour ends */
+
+/* destination starts */
+
+.destination h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin: 25px auto 50px;
+}
+
+.image1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.destination img{
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat;
+}
+
+.image1>div, .image2>div, .image3>div{
+    position: relative;
+}
+
+.destination .images h5{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* destination ends */
+
+/* choose starts */
+
+.choose h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.choose-info p{
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose1{
+    margin-top: 50px;
+}
+
+.choose-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.choose11{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+
+.choose12{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+
+.choose13{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px;
+    width: 44%;
+    margin: 0 auto;
+}
+
+.choose h6{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 30px 0 15px;
+}
+
+.choose1 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* choose ends */
+
+/* deal starts */
+
+.deal h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-info{
+    width: 70%;
+    margin: 25px auto 50px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.small-information{
+    display: flex;
+}
+
+.small-info{
+    display: flex;
+    align-items: center;
+}
+
+.small-info img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.small-info p{
+    margin-right: 25px;
+}
+
+.deal-card-details{
+    margin: 15px 0 25px;
+}
+
+.deal-card-span{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.deal1{
+    position: relative;
+}
+
+.deal-card1{
+    width: 44%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: absolute;
+    top: 55px;
+    right: 55px;
+}
+
+.deal-card1 h6{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 25px 0 15px;
+}
+
+.deal-card1 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deal-card1 button{
+    padding: 15px 25px;
+}
+
+.deal2{
+    position: relative;
+}
+
+.deal-card2{
+    width: 44%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+}
+
+.deal-card2 h6{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 25px 0 15px;
+}
+
+.deal-card2 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deal-card2 button{
+    padding: 15px 25px;
+}
+
+.deal3{
+    position: relative;
+}
+
+.deal-card3{
+    width: 44%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    position: absolute;
+    top: 55px;
+    right: 55px;
+}
+
+.deal-card3 h6{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 25px 0 15px;
+}
+
+.deal-card3 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deal-card3 button{
+    padding: 15px 25px;
+}
+
+.deal-image{
+    margin-bottom: 25px;
+}
+
+.deal-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.deal-button button{
+    padding: 15px 20px;
+}
+
+/* deal ends */
+
+/* place starts */
+
+.place .container{
+    display: flex;
+    align-items: center;
+}
+
+.place-details{
+    margin-right: 40px;
+}
+
+.place h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.place p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.place ul{
+    margin: 25px 0 10px 25px;
+}
+
+.place li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.place button{
+    padding: 15px 40px;
+}
+
+.place-image{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    position: relative;
+}
+
+.place h6{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.pause{
+    color: #F3F3F3;
+    position: absolute;
+    left: 25px;
+    bottom: 45px;
+}
+
+#time-zero{
+    color: #F3F3F3;
+    position: absolute;
+    left: 60px;
+    bottom: 45px;
+}
+
+.mute{
+    color: #F3F3F3;
+    position: absolute;
+    right: 105px;
+    bottom: 45px;
+}
+
+.maximise{
+    color: #F3F3F3;
+    position: absolute;
+    right: 65px;
+    bottom: 45px;
+}
+
+.ellipsis{
+    color: #F3F3F3;
+    position: absolute;
+    right: 25px;
+    bottom: 45px;
+}
+
+#hr1{
+    height: 4px;
+    width: 90%;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+}
+
+.time-pause{
+    height: 4px;
+    width: 15%;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 8px;
+    color: #FFF;
+    border: none;
+}
+
+/* place ends */
+
+/* feedback starts */
+
+.feedback h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.feedback h6{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.feedback p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.feedback1{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.strike{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+
+.ellacott{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+
+.shanker{
+    width: 44%;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+
+/* feedback ends */
+
+/* newsletter starts */
+
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.newsletter-info{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter h6{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 15px 0 25px;
+}
+
+#hr3{
+    width: 100%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 25px;
+    border: none;
+}
+
+.newsletter form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newsletter input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 15px 20px;
+    border: none;
+}
+
+.newsletter button{
+    margin-top: 10px;
+    padding: 14px 150px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.image-information{
+    position: relative;
+}
+
+.image-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #FF5400;
+    height: 120px;
+    width: 325px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 51px;
+    right: 7px;
+    transform: rotate(-19.628deg);
+}
+
+.image-info h6{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 25px auto 5px;
+}
+
+.newsletter h4{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+/* newsletter ends */
+
+/* footer starts */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+
+#company-title{
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+footer h4{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+footer p{
+    width: 70%;
+    margin: 0 auto;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.social img{
+    height: 25px;
+    width: 25px;
+}
+
+#hr4{
+    height: 1px;
+    width: 70%;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 50px auto;
+    border: none;
+}
+
+.copyright{
+    text-align: center;
+}
+
+footer h6{
+    padding-bottom: 110px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* footer ends */

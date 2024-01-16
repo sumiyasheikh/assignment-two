@@ -3,52 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hero Travel</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2876de932d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- header starts -->
     <header>
-        <section>
+        <section class="header">
             <div class="container">
-                <img src="./images/logo.png" alt="logo">
-                <h3>Hero <span>Travel</span></h3>
-
                 <nav>
+                    <div class="company-title">
+                        <img class="logo" src="./images/logo.png" alt="logo">
+                        <h3>Hero <span>Travel</span></h3>
+                    </div>
                     <ul>
-                        <li>Home</li>
-                        <li>Packages</li>
-                        <li>Testimonial</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Packages</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </nav>
 
-                <h1>Explore Your Travel</h1>
-                <p>Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                <div class="banner">
+                    <h1>Explore Your Travel</h1>
+                    <p>There's a reason why 98% of customers say they'd book an adventure with us again. Our tours leave you feeling that you've really explored.</p>
 
-                <form action="">
-                    <input type="text" placeholder="Where go">
-                    <input type="text" placeholder="When">
-                    <input type="text" placeholder="Select Type">
-                    <button><img src="./images/search.png" alt="search">Find Now</button>
-                </form>
+                    <div>
+                        <form class="banner-form" action="">
+                            <div>
+                                <input type="text" placeholder="Where to go"></i>
+                            </div>
+                            <div class="time">
+                                <input type="text" placeholder="When"><i class="fa-solid fa-angle-down"></i>
+                            </div>
+                            <div class="travel">
+                                <input type="text" placeholder="Select Type"><i class="fa-solid fa-angle-down"></i>
+                            </div>
+                            <button><img src="./images/search.png" alt="search"><p>Find Now</p></button>
+                        </form>
+                    </div>
+                </div>
 
             </div>
         </section>
     </header>
+    <!-- header ends -->
 
     <main>
+        <!-- tour starts -->
         <section class="tour">
             <div class="container">
-                <div>
+                <div class="tour-info">
                     <h2>Our Popular Tours</h2>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                    <ul>
-                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                    </ul>
-                    <p>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</p>
+                    <div class="tour-info-details">
+                        <p>From the bustling streets of London to the beautiful countryside of the Cotswolds and Stratford-upon-Avon, here is our list of essential tours.</p>
+                        <ul>
+                            <li>From tasting cultural cuisines to discovering hidden gems, these destinations always deliver.</li>
+                            <li>From tasting cultural cuisines to discovering hidden gems, these destinations always deliver.</li>
+                            <li>From tasting cultural cuisines to discovering hidden gems, these destinations always deliver.</li>
+                        </ul>
+                        <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                    </div>
                     <button>Read More</button>
                 </div>
                 <div>
@@ -56,180 +79,281 @@
                 </div>
             </div>
         </section>
+        <!-- tour ends -->
 
+        <!-- destination starts -->
         <section class="destination">
             <div class="container">
                 <h2>Choose Your Destination</h2>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                <div>
-                    <img src="./images/maldives.png" alt="maldives">
-                    <h5>Maldives</h5>
-                    <img src="./images/indonesia.png" alt="indonesia">
-                    <h5>Indonesia</h5>
-                    <img src="./images/srilanka.png" alt="srilanka">
-                    <h5>Sri Lanka</h5>
-                    <img src="./images/northamerica.png" alt="northamerica">
-                    <h5>North America</h5>
-                    <img src="./images/kashmir.png" alt="kashmir">
-                    <h5>Kashmir</h5>
-                    <img src="./images/bangladesh.png" alt="bangladesh">
-                    <h5>Bangladesh</h5>
-                    <img src="./images/bandarban.png" alt="bandarban">
-                    <h5>Bandarban</h5>
+                <p>From the bustling streets of London to the beautiful countryside of the Cotswolds and Stratford-upon-Avon, here is our list of essential tours.</p>
+                
+                <div class="images">
+                    <div class="image1">
+                        <div>
+                            <img src="./images/maldives.png" alt="maldives">
+                            <h5>Maldives</h5>
+                        </div>
+                        <div>
+                            <img src="./images/indonesia.png" alt="indonesia">
+                            <h5>Indonesia</h5>
+                        </div>
+                    </div>
+                    <div class="image1">
+                        <div>
+                            <img src="./images/srilanka.png" alt="srilanka">
+                            <h5>Sri Lanka</h5>
+                        </div>
+                        <div>
+                            <img src="./images/northamerica.png" alt="northamerica">
+                            <h5>North America</h5>
+                        </div>
+                        <div>
+                            <img src="./images/kashmir.png" alt="kashmir">
+                            <h5>Kashmir</h5>
+                        </div>
+                    </div>
+                    <div class="image1">
+                        <div>
+                            <img src="./images/bangladesh.png" alt="bangladesh">
+                            <h5>Bangladesh</h5>
+                        </div>
+                        <div>
+                            <img src="./images/bandarban.png" alt="bandarban">
+                            <h5>Bandarban</h5>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </section>
+        <!-- destination ends -->
 
+        <!-- choose starts -->
         <section class="choose">
             <div class="container">
-                <h2>Why Choose Us</h2>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                <div>
-                    <img src="./images/hotel.png" alt="hotel">
-                    <h5>Handpicked Hotels</h5>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet.</p>
+                <div class="choose-info">
+                    <h2>Why Choose Us</h2>
+                    <p>From the bustling streets of London to the beautiful countryside of the Cotswolds and Stratford-upon-Avon, here is our list of essential tours.</p>
                 </div>
-                <div>
-                    <img src="./images/map.png" alt="map">
-                    <h5>World Class Service</h5>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
-                </div>
-                <div>
-                    <img src="./images/price.png" alt="price">
-                    <h5>Best Price Guarantee</h5>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                <div class="choose1">
+                    <div class="choose-item">
+                        <div class="choose11">
+                            <img src="./images/hotel.png" alt="hotel">
+                            <h6>Handpicked Hotels</h6>
+                            <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                        </div>
+                        <div class="choose12">
+                            <img src="./images/map.png" alt="map">
+                            <h6>World Class Service</h6>
+                            <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                        </div>
+                    </div>
+                    <div class="choose13">
+                        <img src="./images/price.png" alt="price">
+                        <h6>Best Price Guarantee</h6>
+                        <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- choose ends -->
 
+        <!-- deal starts -->
         <section class="deal">
             <div class="container">
                 <h2>Deals & Discounts</h2>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                <div>
+                <p class="deal-info">Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                
+                <div class="deal1">
+                    <img class="deal-image" src="./images/deal1.png" alt="deal1">
+
+                    <div class="deal-card1">
+                        <div class="small-information">
+                            <div class="small-info">
+                                <img src="./images/clock.png" alt="clock">
+                                <p>7 Day/6 Night</p>
+                            </div>
+                            <div class="small-info">
+                                <img src="./images/people.png" alt="people">
+                                <p>Max : 10</p>
+                            </div>
+                            <div class="small-info">
+                                <img src="./images/country.png" alt="country">
+                                <p>Malaysia</p>
+                            </div>
+                        </div>
+                        <h6>Tour To Satorini</h6>
+                        <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                        <p class="deal-card-details"><span class="deal-card-span">Price: $1300-$1500</span></p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+
+                <div class="deal2">
+                    <img class="deal-image" src="./images/deal2.png" alt="deal2">
+
+                    <div class="deal-card2">
+                        <div class="small-information">
+                            <div class="small-info">
+                                <img src="./images/clock.png" alt="clock">
+                                <p>7 Day/6 Night</p>
+                            </div>
+                            <div class="small-info">
+                                <img src="./images/people.png" alt="people">
+                                <p>Max : 10</p>
+                            </div>
+                            <div class="small-info">
+                                <img src="./images/country.png" alt="country">
+                                <p>Malaysia</p>
+                            </div>
+                        </div>
+                        <h6>Tour To Satorini</h6>
+                        <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                        <p class="deal-card-details"><span class="deal-card-span">Price: $1300-$1500</span></p>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+
+                <div class="deal3">
                     <img src="./images/deal1.png" alt="deal1">
-                    <div>
-                        <img src="./images/clock.png" alt="clock">
-                        <p>7 Day/6 Night</p>
-                        <img src="./images/people.png" alt="people">
-                        <p>Max : 10</p>
-                        <img src="./images/country.png" alt="country">
-                        <p>Malaysia</p>
-                        <h5>Tour To Satorini</h5>
-                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                        <p><span>Price: $1300-$1500</span></p>
+
+                    <div class="deal-card3">
+                        <div class="small-information">
+                            <div class="small-info">
+                                <img src="./images/clock.png" alt="clock">
+                                <p>7 Day/6 Night</p>
+                            </div>
+                            <div class="small-info">
+                                <img src="./images/people.png" alt="people">
+                                <p>Max : 10</p>
+                            </div>
+                            <div class="small-info">
+                                <img src="./images/country.png" alt="country">
+                                <p>Malaysia</p>
+                            </div>
+                        </div>
+                        <h6>Tour To Satorini</h6>
+                        <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                        <p class="deal-card-details"><span class="deal-card-span">Price: $1300-$1500</span></p>
                         <button>Book Now</button>
                     </div>
                 </div>
-                <div>
-                    <img src="./images/deal2.png" alt="deal2">
-                    <div>
-                        <img src="./images/clock.png" alt="clock">
-                        <p>7 Day/6 Night</p>
-                        <img src="./images/people.png" alt="people">
-                        <p>Max : 10</p>
-                        <img src="./images/country.png" alt="country">
-                        <p>Malaysia</p>
-                        <h5>Tour To Satorini</h5>
-                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                        <p><span>Price: $1300-$1500</span></p>
-                        <button>Book Now</button>
-                    </div>
+
+                <div class="deal-button">
+                    <button>See All Packages</button>
                 </div>
-                <div>
-                    <img src="./images/deal1.png" alt="deal1">
-                    <div>
-                        <img src="./images/clock.png" alt="clock">
-                        <p>7 Day/6 Night</p>
-                        <img src="./images/people.png" alt="people">
-                        <p>Max : 10</p>
-                        <img src="./images/country.png" alt="country">
-                        <p>Malaysia</p>
-                        <h5>Tour To Satorini</h5>
-                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
-                        <p><span>Price: $1300-$1500</span></p>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-                <button>See All Packages</button>
+
             </div>
         </section>
+        <!-- deal ends -->
 
-        <section>
+        <!-- place starts -->
+        <section class="place">
             <div class="container">
-                <h2>A Simple Perfect Place To Get Lost</h2>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.</p>
-                <ul>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                </ul>
-                <button>See More</button>
+                <div class="place-details">
+                    <h2>A Simple Perfect Place To Get Lost</h2>
+                    <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                    <ul>
+                        <li>Our most popular tours have been chosen by you, our guests, making them an obvious place to find inspiration for your dream holiday!</li>
+                        <li>Our most popular tours have been chosen by you, our guests, making them an obvious place to find inspiration for your dream holiday!</li>
+                    </ul>
+                    <button>See More</button>
+                </div>
+    
                 <div>
-                    <img src="./images/mountain.png" alt="mountain">
-                    <h5>Watch Our Mountain in Bangladesh</h5>
-                    <img src="./images/pause.png" alt="pause">
-                    <h6>0.00</h6>
-                    <img src="./images/mute.png" alt="mute">
-                    <img src="./images/maximise.png" alt="maximise">
-                    <img src="./images/bars.png" alt="bars">
-                    <hr>
+                    <div class="place-image">
+                        <img  src="./images/mountain.png" alt="mountain">
+                        <h6>Watch Our Mountain in Bangladesh</h6>
+                        <img class="pause" src="./images/pause.png" alt="pause">
+                        <p id="time-zero">0.00</p>
+                        <img class="mute" src="./images/mute.png" alt="mute">
+                        <img class="maximise" src="./images/maximise.png" alt="maximise">
+                        <img class="ellipsis" src="./images/ellipsis.png" alt="ellipsis">
+                        <div class="time-line">
+                            <hr id="hr1">
+                            <hr class="time-pause">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- place ends -->
 
-        <section>
+        <!-- feedback starts -->
+        <section class="feedback">
             <div class="container">
                 <h2>Feedback From Clients</h2>
-                <div>
-                    <h5>Cormoran Strike</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quae sint ea id commodi tempore itaque vero blanditiis, error debitis facilis illo consectetur alias dolore.</p>
+                <div class="feedback1">
+                    <div  class="strike">
+                        <h6>Cormoran Strike</h6>
+                        <p>Their most popular tours have been chosen by you, their guests, making them an obvious place to find inspiration for your dream holiday!</p>
+                    </div>
+                    <div  class="ellacott">
+                        <h6>Robin Ellacott</h6>
+                        <p>Their most popular tours have been chosen by you, their guests, making them an obvious place to find inspiration for your dream holiday!</p>
+                    </div>
                 </div>
-                <div>
-                    <h5>Robin Ellacott</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi animi libero numquam. Corporis eum iusto doloribus reprehenderit adipisci? Laudantium, exercitationem.</p>
-                </div>
-                <div>
-                    <h5>Shanker</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias illum eum totam quis ipsam earum aliquid, veniam eos! Nemo, ex.</p>
+                <div class="shanker">
+                    <h6>Shanker</h6>
+                    <p>Their most popular tours have been chosen by you, our guests, making them an obvious place to find inspiration for your dream holiday!</p>
                 </div>
             </div>
         </section>
+        <!-- feedback ends -->
 
-        <section>
+        <!-- newsletter starts -->
+        <section class="newsletter">
             <div class="container">
-                <div>
-                    <h5>Newsletter</h5>
-                    <p>Get your daily dose of travel news & tips. Sign up today!</p>
-                    <hr>
-                    <form action="">
-                        <input type="text" placeholder="Enter your name">
-                        <input type="text" placeholder="Enter your email">
-                        <button>Subscribe</button>
-                    </form>
+                <div class="newsletter-container">
+                    <div class="newsletter-info">
+                        <div>
+                            <h6>Newsletter</h6>
+                            <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                            <hr id="hr3">
+                            <form action="">
+                                <input type="text" placeholder="Enter your name">
+                                <input type="text" placeholder="Enter your email">
+                                <button>Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="image-information">
+                        <img src="./images/newsletter.png" alt="newsletter">
+                        <div class="image-info">
+                            <h6>Travel.com</h6>
+                            <h4>Save up to 70%</h4>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div>
-                    <img src="./images/newsletter.png" alt="newsletter">
-                    <h5>Travel.com</h5>
-                    <h2>Save up to 70%</h2>
-                </div>
+                
             </div>
         </section>
+        <!-- newsletter ends -->
     </main>
 
+    <!-- footer starts -->
     <footer>
-        <section>
+        <div class="footer">
             <div class="container">
-                <img src="./images/logo.png" alt="logo">
-                <h3>Hero <span>Travel</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam.</p>
-                <img src="./images/twitter.png" alt="twitter">
-                <img src="./images/facebook.png" alt="facebook">
-                <img src="./images/instagram.png" alt="instagram">
-                <img src="./images/github.png" alt="github">
-                <hr>
-                <h6> &copy; 2017, All Rights Reserved.</h6>
+                <div id="company-title" class="company-title">
+                    <img class="logo" src="./images/logo.png" alt="logo">
+                    <h4>Hero <span>Travel</span></h4>
+                </div>
+                <p>Over the last year we have seen solo travellers jumping at the chance to get packing and join us on tour - hungry for adventure, new discoveries and the shared experiences that only a group holiday can offer.</p>
+                <div class="social">
+                    <img src="./images/twitter.png" alt="twitter">
+                    <img src="./images/facebook.png" alt="facebook">
+                    <img src="./images/instagram.png" alt="instagram">
+                    <img src="./images/github.png" alt="github">
+                </div>
+                <hr id="hr4">
+                <div class="copyright">
+                    <h6> &copy; 2017, All Rights Reserved.</h6>
+                </div>
             </div>
-        </section>
+        </div>
     </footer>
+    <!-- footer ends -->
 </body>
 </html>
