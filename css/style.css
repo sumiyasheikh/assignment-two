@@ -306,6 +306,18 @@ form{
 
 /* deal starts */
 
+.deal1 > img{
+    width: 100%;
+}
+
+.deal2 > img{
+    width: 100%;
+}
+
+.deal3 > img{
+    width: 100%;
+}
+
 .deal h2{
     text-align: center;
     font-size: 40px;
@@ -809,7 +821,7 @@ footer h6{
     }
 
     section{
-        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
     img{
@@ -889,6 +901,29 @@ footer h6{
         flex-wrap: wrap;
     }
 
+    .deal-card1{
+        padding: 25px;
+    }
+
+    .deal-card1{
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .deal-card2{
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .deal-card3{
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .deal-card-details{
+        font-size: 16px;
+    }
+
     /* deal ends */
 
     /* place starts */
@@ -911,8 +946,8 @@ footer h6{
         gap: 25px;
     }
 
-    .shankar{
-        width: 70%;
+    .shanker{
+        width: fit-content;
     }
 
     /* feedback ends */
