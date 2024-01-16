@@ -31,6 +31,10 @@ p{
     font-weight: 400;
 }
 
+.hidden{
+    display: none;
+}
+
 /* header starts */
 
 nav{
@@ -800,13 +804,135 @@ footer h6{
         margin: 20px;
     }
 
-    .hidden{
+    .hidden1{
         display: none;
     }
 
+    section{
+        margin-top: 25px;
+    }
+
+    img{
+        width: fit-content;
+    }
+
+    .banner h1{
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .banner p{
+        font-size: 14px;
+        margin: 10px auto 30px;
+    }
+
     .banner-form{
+        /* width: 50%; */
         text-align: center;
         flex-direction: column;
     }
+
+    /* tour starts */
+
+    .tour .container{
+        flex-direction: column;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    /* tour ends */
+
+    /* destination starts */
+
+    .image1{
+        flex-direction: column;
+    }
+
+    .gap{
+        margin-bottom: 25px;
+    }
+
+    /* destination ends */
+
+    /* choose starts */
+
+    .choose-item{
+        flex-direction: column;
+    }
+
+    .choose13{
+        width: fit-content;
+    }
+
+    /* choose ends */
+
+    /* deal starts */
+
+    .deal-card1{
+        width: 70%;
+        padding: 25px;
+    }
+
+    .deal-card2{
+        width: 70%;
+        padding: 25px;
+    }
+
+    .deal-card3{
+        width: 70%;
+        padding: 25px;
+    }
+
+    .small-information{
+        flex-wrap: wrap;
+    }
+
+    /* deal ends */
+
+    /* place starts */
+
+    .place .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .place-image{
+        margin: 0 auto;
+    }
+
+    /* place ends */
+
+    /* feedback starts */
+
+    .feedback1{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .shankar{
+        width: 70%;
+    }
+
+    /* feedback ends */
+
+    .newsletter-container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* footer starts */
+
+    #company-title{
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    footer h6{
+        padding-bottom: 30px;
+    }
+
+    /* footer ends */
 
 }
