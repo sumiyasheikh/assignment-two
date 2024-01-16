@@ -99,14 +99,13 @@ a:hover{
 }
 
 .banner-form{
+    width: 70%;
+    margin: 0 auto;
     margin-top: 50px;
+    padding: 15px;
     padding-bottom: 105px;
     display: flex;
     justify-content: center;
-    gap: 25px;
-}
-
-.banner-form form{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.30);
     padding: 15px;
@@ -149,6 +148,10 @@ i{
 
 .banner-form button img{
     margin-right: 10px;
+}
+
+form{
+    padding-bottom: 105px;
 }
 
 /* header ends */
@@ -790,3 +793,20 @@ footer h6{
 }
 
 /* footer ends */
+
+@media screen and (max-width: 600px) {
+    
+    .container{
+        margin: 20px;
+    }
+
+    .hidden{
+        display: none;
+    }
+
+    .banner-form{
+        text-align: center;
+        flex-direction: column;
+    }
+
+}
