@@ -209,6 +209,10 @@ form{
     padding: 1rem 2rem;
 }
 
+.tour img{
+    width: 100%;
+}
+
 /* tour ends */
 
 /* destination starts */
@@ -513,6 +517,7 @@ form{
 .place .container{
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
 .place-details{
@@ -545,6 +550,10 @@ form{
 
 .place button{
     padding: 1rem 2.5rem;
+}
+
+.place-main-image{
+    width: 100%;
 }
 
 .place-image{
@@ -696,7 +705,6 @@ form{
 
 .newsletter-container{
     display: flex;
-    /* grid-template-columns: auto auto; */
     align-items: center;
     gap: 1.5rem;
 }
@@ -754,8 +762,6 @@ form{
 
 .image-information{
     position: relative;
-    
-    /* overflow: hidden; */
 }
 
 .image-information img{
