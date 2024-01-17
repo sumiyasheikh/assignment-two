@@ -99,6 +99,15 @@
         padding: 1rem;
     }
 
+    .deal-card1 button, .deal-card2 button, .deal-card3 button{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .deal-card-details{
+        margin: 1rem;
+    }
+
     /* deal ends */
 
     /* place starts */
