@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travel</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
@@ -23,7 +24,7 @@
                         <img class="logo" src="./images/logo.png" alt="logo">
                         <h3>Hero <span>Travel</span></h3>
                     </div>
-                    <ul class="hidden1">
+                    <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">Packages</a></li>
                         <li><a href="">Testimonial</a></li>
@@ -44,13 +45,14 @@
                                     <input type="text" placeholder="Where to go"></i>
                                 </div>
                                 <div class="time">
-                                    <input type="text" placeholder="When"><i class="fa-solid fa-angle-down"></i>
+                                    <input type="text" placeholder="When"><i class="fa-solid fa-angle-down dropdown"></i>
                                 </div>
                                 <div class="travel">
-                                    <input type="text" placeholder="Select Type"><i class="fa-solid fa-angle-down"></i>
+                                    <input type="text" placeholder="Select Type"><i class="fa-solid fa-angle-down dropdown"></i>
                                 </div>
-                                <div>
-                                    <button><img src="./images/search.png" alt="search"><p>Find Now</p></button>
+                                <div class="banner-form-button">
+                                    <button><p>Find Now</p></button>
+                                    <!-- <i class="fa-solid fa-magnifying-glass search"></i> -->
                                 </div>
                             </div>
                         </form>
@@ -94,35 +96,35 @@
                 
                 <div class="images">
                     <div class="image1">
-                        <div>
+                        <div class="country">
                             <img class="gap" src="./images/maldives.png" alt="maldives">
                             <h5>Maldives</h5>
                         </div>
-                        <div>
+                        <div class="country">
                             <img src="./images/indonesia.png" alt="indonesia">
                             <h5>Indonesia</h5>
                         </div>
                     </div>
                     <div class="image1">
-                        <div>
+                        <div class="country">
                             <img class="gap" src="./images/srilanka.png" alt="srilanka">
                             <h5>Sri Lanka</h5>
                         </div>
-                        <div>
+                        <div class="country">
                             <img class="gap" src="./images/northamerica.png" alt="northamerica">
                             <h5>North America</h5>
                         </div>
-                        <div>
+                        <div class="country">
                             <img src="./images/kashmir.png" alt="kashmir">
                             <h5>Kashmir</h5>
                         </div>
                     </div>
                     <div class="image1">
-                        <div>
+                        <div class="country">
                             <img class="gap" src="./images/bangladesh.png" alt="bangladesh">
                             <h5>Bangladesh</h5>
                         </div>
-                        <div>
+                        <div class="country">
                             <img src="./images/bandarban.png" alt="bandarban">
                             <h5>Bandarban</h5>
                         </div>
@@ -323,10 +325,12 @@
                         </div>
                     </div>
                     <div class="image-information">
-                        <img src="./images/newsletter.png" alt="newsletter">
-                        <div class="image-info">
-                            <h6>Travel.com</h6>
-                            <h4>Save up to 70%</h4>
+                        <div>
+                            <img src="./images/newsletter.png" alt="newsletter">
+                            <div class="image-info">
+                                <h6>Travel.com</h6>
+                                <h4>Save up to 70%</h4>
+                            </div>
                         </div>
                     </div>
                     

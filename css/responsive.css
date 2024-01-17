@@ -1,0 +1,170 @@
+@media screen and (max-width: 600px) {
+    
+    .container{
+        margin: 0 20px;
+        /* width: fit-content; */
+    }
+
+    .hidden1{
+        display: none;
+    }
+
+    section{
+        margin-bottom: 25px;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    /* header starts */
+
+    .banner h1{
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .banner p{
+        font-size: 14px;
+        margin: 10px auto 30px;
+    }
+
+    .banner-form{
+        /* width: 50%; */
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* header ends */
+
+    /* tour starts */
+
+    .tour .container{
+        flex-direction: column;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    /* tour ends */
+
+    /* destination starts */
+
+    .image1{
+        flex-direction: column;
+    }
+
+    .gap{
+        margin-bottom: 25px;
+    }
+
+    /* destination ends */
+
+    /* choose starts */
+
+    .choose-item{
+        flex-direction: column;
+    }
+
+    .choose13{
+        width: fit-content;
+    }
+
+    /* choose ends */
+
+    /* deal starts */
+
+    .deal-card1{
+        width: 70%;
+        padding: 25px;
+    }
+
+    .deal-card2{
+        width: 70%;
+        padding: 25px;
+    }
+
+    .deal-card3{
+        width: 70%;
+        padding: 25px;
+    }
+
+    .small-information{
+        flex-wrap: wrap;
+    }
+
+    .deal-card1{
+        padding: 25px;
+    }
+
+    .deal-card1{
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .deal-card2{
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .deal-card3{
+        bottom: 15px;
+        left: 15px;
+    }
+
+    .deal-card-details{
+        font-size: 16px;
+    }
+
+    /* deal ends */
+
+    /* place starts */
+
+    .place .container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .place-image{
+        margin: 0 auto;
+    }
+
+    /* place ends */
+
+    /* feedback starts */
+
+    .feedback1{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .shanker{
+        width: fit-content;
+    }
+
+    /* feedback ends */
+
+    /* newsletter starts */
+
+    .newsletter-container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* newsletter ends */
+
+    /* footer starts */
+
+    #company-title{
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+
+    footer h6{
+        padding-bottom: 30px;
+    }
+
+    /* footer ends */
+
+}
