@@ -379,8 +379,8 @@ form{
     backdrop-filter: blur(2.5px);
     padding: 3rem;
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 2rem;
+    right: 2rem;
 }
 
 .small-information{
@@ -445,8 +445,8 @@ form{
     backdrop-filter: blur(2.5px);
     padding: 3rem;
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 2rem;
 }
 
 .deal-card2 h6{
@@ -481,10 +481,10 @@ form{
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
-    padding: 3rem;
+    padding: 2rem;
     position: absolute;
-    top: 3rem;
-    right: 3rem;
+    top: 2rem;
+    right: 2rem;
 }
 
 .deal-card3 h6{

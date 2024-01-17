@@ -66,6 +66,41 @@
 
     /* choose ends */
 
+    /* deal starts */
+
+    .deal1>img, .deal2>img, .deal3>img{
+        height: 30rem;
+    }
+
+    .deal-card1{
+        margin: 0 auto;
+        height: 60%;
+        width: 70%;
+        top: 7rem;
+        left: 2rem;
+        padding: 1rem;
+    }
+
+    .deal-card2{
+        margin: 0 auto;
+        height: 60%;
+        width: 70%;
+        top: 7rem;
+        right: 2rem;
+        padding: 1rem;
+    }
+
+    .deal-card3{
+        margin: 0 auto;
+        height: 60%;
+        width: 70%;
+        top: 8rem;
+        left: 2rem;
+        padding: 1rem;
+    }
+
+    /* deal ends */
+
     /* place starts */
 
     .place .container{
