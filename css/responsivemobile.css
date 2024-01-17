@@ -74,7 +74,7 @@
 
     .deal-card1{
         margin: 0 auto;
-        height: 60%;
+        height: 18rem;
         width: 70%;
         top: 7rem;
         left: 2rem;
@@ -83,7 +83,7 @@
 
     .deal-card2{
         margin: 0 auto;
-        height: 60%;
+        height: 18rem;
         width: 70%;
         top: 7rem;
         right: 2rem;
@@ -92,7 +92,7 @@
 
     .deal-card3{
         margin: 0 auto;
-        height: 60%;
+        height: 18rem;
         width: 70%;
         top: 8rem;
         left: 2rem;
@@ -137,6 +137,10 @@
 
     .newsletter-info{
         width: 89%;
+    }
+
+    .newsletter button{
+        text-align: center;
     }
 
     /* newsletter ends */

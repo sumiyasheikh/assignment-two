@@ -385,6 +385,7 @@ form{
 
 .small-information{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .small-info{
@@ -750,7 +751,7 @@ form{
 
 .newsletter button{
     margin-top: 0.6rem;
-    padding: 1rem 9rem;
+    padding: 1rem;
     color: #FFF;
     text-align: center;
     font-size: 1.25rem;
