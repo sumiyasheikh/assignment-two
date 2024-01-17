@@ -213,7 +213,7 @@ form{
 }
 
 .tour-info button{
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem 2rem;
 }
 
@@ -506,11 +506,11 @@ form{
 }
 
 .deal-button{
-    margin-top: 3rem;
     text-align: center;
 }
 
 .deal-button button{
+    margin-top: 3rem;
     padding: 1rem;
 }
 
@@ -549,6 +549,7 @@ form{
 }
 
 .place button{
+    margin-top: 2rem;
     padding: 1rem 2.5rem;
 }
 
