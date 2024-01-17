@@ -100,6 +100,7 @@ a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
+    padding-bottom: 6rem;
 }
 
 .banner h1{
@@ -120,10 +121,9 @@ a:hover{
 
 .banner-form{
     /* width: 90%; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 3rem;
-    padding: 1rem;
-    padding-bottom: 6.5rem;
+    /* padding: 1rem; */
     display: flex;
     justify-content: center;
     border-radius: 0.5rem;
@@ -161,11 +161,23 @@ a:hover{
     right: 1rem;
 }
 
+.banner-form-button{
+    display: flex;
+    justify-content: center;
+}
+
 .banner-form button{
+    /* position: relative; */
+    padding: 0.7rem 0.5rem 0.7rem 2rem;
     position: relative;
-    padding: 0.6rem 0;
-    position: relative;
-    align-items: center;
+    /* align-items: center; */
+}
+
+.banner-form-button i{
+    position: absolute;
+    top: 1rem;
+    left: 0.5rem;
+    /* margin-right: 1rem; */
 }
 
 .search{
@@ -207,10 +219,6 @@ form{
 .tour-info button{
     margin-top: 1rem;
     padding: 1rem 2rem;
-}
-
-.tour img{
-    width: 100%;
 }
 
 /* tour ends */
@@ -517,11 +525,7 @@ form{
 .place .container{
     display: flex;
     align-items: center;
-    gap: 2rem;
-}
-
-.place-details{
-    margin-right: 2.5rem;
+    gap: 2.5rem;
 }
 
 .place h2{
@@ -550,10 +554,6 @@ form{
 
 .place button{
     padding: 1rem 2.5rem;
-}
-
-.place-main-image{
-    width: 100%;
 }
 
 .place-image{

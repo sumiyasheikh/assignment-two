@@ -14,10 +14,30 @@
         margin: 0 1.25rem;
     }
 
+    /* header starts */
+
+    header ul{
+        display: none;
+    }
+
+    .banner-form{
+        flex-direction: column;
+    }
+
+    /* header ends */
+
     /* tour starts */
 
     .tour .container{
         flex-direction: column;
+    }
+
+    .tour-info h2{
+        text-align: center;
+    }
+
+    .tour img{
+        width: 100%;
     }
 
     /* tour ends */
@@ -48,6 +68,14 @@
         flex-direction: column;
     }
 
+    .place h2{
+        text-align: center;
+    }
+
+    .place-main-image{
+        width: 100%;
+    }
+
     /* place ends */
 
     /* feedback starts */
@@ -57,7 +85,7 @@
     }
 
     .shanker{
-        width: 85%;
+        width: 91%;
     }
 
     /* feedback ends */
@@ -68,5 +96,26 @@
         flex-direction: column;
     }
 
+    .newsletter-info{
+        width: 89%;
+    }
+
     /* newsletter ends */
+
+    /* footer starts */
+
+    #company-title{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    #hr4{
+        width: 100%;
+    }
+
+    footer h6{
+        padding-bottom: 2rem;
+    }
+
+    /* footer ends */
 }
