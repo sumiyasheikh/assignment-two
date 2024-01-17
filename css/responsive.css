@@ -16,8 +16,12 @@
 
     /* header starts */
 
-    header ul{
+    header .regular{
         display: none;
+    }
+
+    header .bars{
+        display: block;
     }
 
     .banner-form{

@@ -120,10 +120,7 @@ a:hover{
 }
 
 .banner-form{
-    /* width: 90%; */
-    /* margin: 0 auto; */
     margin-top: 3rem;
-    /* padding: 1rem; */
     display: flex;
     justify-content: center;
     border-radius: 0.5rem;
@@ -164,20 +161,19 @@ a:hover{
 .banner-form-button{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .banner-form button{
-    /* position: relative; */
     padding: 0.7rem 0.5rem 0.7rem 2rem;
     position: relative;
-    /* align-items: center; */
+    
 }
 
 .banner-form-button i{
     position: absolute;
     top: 1rem;
     left: 0.5rem;
-    /* margin-right: 1rem; */
 }
 
 .search{
@@ -347,18 +343,6 @@ form{
 
 /* deal starts */
 
-.deal1 > img{
-    width: 100%;
-}
-
-.deal2 > img{
-    width: 100%;
-}
-
-.deal3 > img{
-    width: 100%;
-}
-
 .deal h2{
     text-align: center;
     font-size: 2.5rem;
@@ -373,6 +357,30 @@ form{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.6rem;
+}
+
+.deal-image{
+    margin-bottom: 1.5rem;
+}
+
+.deal1{
+    position: relative;
+}
+
+.deal1 > img{
+    width: 100%;
+}
+
+.deal-card1{
+    width: 44%;
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3rem;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
 }
 
 .small-information{
@@ -394,31 +402,6 @@ form{
     margin-right: 1.5rem;
 }
 
-.deal-card-details{
-    margin: 1rem 0 1.5rem;
-}
-
-.deal-card-span{
-    font-size: 1.25rem;
-    font-weight: 800;
-}
-
-.deal1{
-    position: relative;
-}
-
-.deal-card1{
-    width: 44%;
-    border-radius: 1rem;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    padding: 3rem;
-    position: absolute;
-    top: 3rem;
-    right: 3rem;
-}
-
 .deal-card1 h6{
     color: #131318;
     font-size: 1.5rem;
@@ -433,12 +416,25 @@ form{
     line-height: 1.6rem;
 }
 
+.deal-card-details{
+    margin: 1rem 0 1.5rem;
+}
+
+.deal-card-span{
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
 .deal-card1 button{
     padding: 1rem 1.5rem;
 }
 
 .deal2{
     position: relative;
+}
+
+.deal2 > img{
+    width: 100%;
 }
 
 .deal-card2{
@@ -475,6 +471,10 @@ form{
     position: relative;
 }
 
+.deal3 > img{
+    width: 100%;
+}
+
 .deal-card3{
     width: 44%;
     border-radius: 1rem;
@@ -503,10 +503,6 @@ form{
 
 .deal-card3 button{
     padding: 1rem 1.5rem;
-}
-
-.deal-image{
-    margin-bottom: 1.5rem;
 }
 
 .deal-button{
