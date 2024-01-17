@@ -56,8 +56,15 @@ nav{
     align-items: center;
 }
 
-.logo{
+.logo1{
     margin-right: 1rem;
+    height: 3rem;
+    width: 3.5rem;
+}
+
+.logo2{
+    height: 2.5rem;
+    width: 3rem;
 }
 
 .company-title h3{
@@ -274,6 +281,11 @@ form{
 
 .choose1{
     margin-top: 3rem;
+}
+
+.choose1 img{
+    height: 4rem;
+    width: 4rem;
 }
 
 .choose-item{
@@ -565,6 +577,8 @@ form{
     position: absolute;
     left: 1.5rem;
     bottom: 3rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 #time-zero{
@@ -579,6 +593,8 @@ form{
     position: absolute;
     right: 6.5rem;
     bottom: 3rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .maximise{
@@ -586,6 +602,8 @@ form{
     position: absolute;
     right: 4rem;
     bottom: 3rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .ellipsis{
@@ -593,6 +611,8 @@ form{
     position: absolute;
     right: 1.5rem;
     bottom: 3rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 #hr1{
